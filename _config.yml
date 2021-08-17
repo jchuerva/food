@@ -8,8 +8,8 @@ name: aloria
 description: >- # this means to ignore newlines until "baseurl:"
   I don't need your life story. I just want some food.
 keywords: [cooking, recipes]
-baseurl: 'food' # the subpath of your site, e.g. /`blog
-url: 'https://jchuerva.github.io/food/' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /`blog
+url: # the base hostname & protocol for your site, e.g. http://example.com
 # domain: 'just-the.recipes' # the domain name for your site, e.g. example.com
 domain:
 language: en
@@ -36,7 +36,7 @@ diagram: false # Diagrams support
 paginate: 20
 paginate_path: '/page:num/'
 
-permalink: /:year/:month/:day/:title
+permalink: food/:year/:month/:day/:title
 
 sass:
   sass_dir: _sass
