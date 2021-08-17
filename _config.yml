@@ -10,8 +10,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 keywords: [cooking, recipes]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-domain: ''
 # domain: 'just-the.recipes' # the domain name for your site, e.g. example.com
+domain:
 language: en
 # Supported languages list:
 # en: English
@@ -25,7 +25,7 @@ language: en
 
 future: false
 
-analytics: ''
+analytics:
 
 comments: false # enable comments
 disqus: # disqus account
@@ -57,5 +57,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman
