@@ -36,7 +36,7 @@ diagram: false # Diagrams support
 paginate: 20
 paginate_path: '/page:num/'
 
-permalink: /food/:year/:month/:day/:title
+permalink: /food/food/:year/:month/:day/:title
 
 sass:
   sass_dir: _sass
