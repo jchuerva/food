@@ -4,12 +4,13 @@
 
 title: Just the F*cking Recipe
 email: farts@just-the.recipes
-name: jchuerva
+name: aloria
 description: >- # this means to ignore newlines until "baseurl:"
   I don't need your life story. I just want some food.
 keywords: [cooking, recipes]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
+domain: ''
 # domain: 'just-the.recipes' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
@@ -24,7 +25,7 @@ language: en
 
 future: false
 
-analytics: G-42HG3L86FD
+analytics: ''
 
 comments: false # enable comments
 disqus: # disqus account
